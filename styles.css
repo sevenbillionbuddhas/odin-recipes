@@ -1,4 +1,13 @@
 /* styles.css */
+body {
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 div {
     color: white;
@@ -8,4 +17,32 @@ div {
   p {
     color: red;
   }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .recipe-list {
+    display: inline-flex;
+    font-weight: 800;
+    text-transform: uppercase;
+    gap: 1em;
+  }
+  
+  .recipe-title {
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgb(95, 10, 10);
+    padding: .5em 1em;
+    box-sizing: border-box;
+  }
+
+  .main-recipe.img {
+    width: 50%;
+  }
+
   
